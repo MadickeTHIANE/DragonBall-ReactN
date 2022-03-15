@@ -5,7 +5,7 @@ export default function Card({ item, show, display }) {
   return (
     <View>
       <View>
-        <Image style={styles.img} source={item.img} />
+        <Image style={styles.img} source={require("../assets/" + item.img)} />
       </View>
       <View style={styles.card}>
         <Text>Nom du personnage : {item.name}</Text>
