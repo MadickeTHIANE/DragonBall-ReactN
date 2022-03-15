@@ -1,12 +1,11 @@
 import React from "react";
 import { StyleSheet, Text, View, Pressable, Image } from "react-native";
-import Goku from "../assets/goku.png";
 
 export default function Card({ item, show, display }) {
   return (
     <View>
       <View>
-        <Image style={styles.img} source={Goku} />
+        <Image style={styles.img} source={item.img} />
       </View>
       <View style={styles.card}>
         <Text>Nom du personnage : {item.name}</Text>
