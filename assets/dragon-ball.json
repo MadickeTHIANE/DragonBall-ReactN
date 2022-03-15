@@ -15,7 +15,7 @@
         "Super Kamehameha",
         "Super Dragon Fist"
       ],
-      "img": "../assets/goku.png"
+      "img": "goku.png"
     },
     {
       "id": "vegeta",
@@ -32,7 +32,7 @@
         "Final Flash",
         "Big Bang Attack"
       ],
-      "img": "../assets/goku.png"
+      "img": "vegeta.png"
     },
     {
       "id": "gohan",
@@ -49,7 +49,7 @@
         "Super Kamehameha",
         "Masenko"
       ],
-      "img": "../assets/goku.png"
+      "img": "gohan.png"
     },
     {
       "id": "trunks",
@@ -66,7 +66,7 @@
         "Galic Gun",
         "Finish Buster"
       ],
-      "img": "../assets/goku.png"
+      "img": "trunks.png"
     },
     {
       "id": "frieza",
@@ -79,7 +79,7 @@
       "defense": "47,000",
       "kiRestoreSpeed": "44,000",
       "abilities": ["Eye Laser", "Death Beam", "Death Ball"],
-      "img": "../assets/goku.png"
+      "img": "frieza.png"
     },
     {
       "id": "cell",
@@ -92,7 +92,7 @@
       "defense": "20,000",
       "kiRestoreSpeed": "20,000",
       "abilities": ["Energy Shield", "Super Kamehameha", "Destructo Disk"],
-      "img": "../assets/goku.png"
+      "img": "cell.png"
     },
     {
       "id": "buu",
@@ -105,7 +105,7 @@
       "defense": "29,000",
       "kiRestoreSpeed": "28,000",
       "abilities": ["Absorption", "Healing", "Chocolate Beam"],
-      "img": "../assets/goku.png"
+      "img": "buu.png"
     },
     {
       "id": "beerus",
@@ -122,7 +122,7 @@
         "Destruction Gods, Fierce Attack",
         "Hakai"
       ],
-      "img": "../assets/goku.png"
+      "img": "beerus.png"
     },
     {
       "id": "piccolo",
@@ -135,7 +135,7 @@
       "defense": "25,000",
       "kiRestoreSpeed": "25,000",
       "abilities": ["Special Beam Cannon", "Tri-Form", "Light Grenade"],
-      "img": "../assets/goku.png"
+      "img": "piccolo.png"
     },
     {
       "id": "gotenks",
@@ -152,7 +152,7 @@
         "Galactic Donut",
         "Super Ghost Kamikaze Attack"
       ],
-      "img": "../assets/goku.png"
+      "img": "gotenks.png"
     },
     {
       "id": "hit",
@@ -165,7 +165,7 @@
       "defense": "46,000",
       "kiRestoreSpeed": "46,000",
       "abilities": ["Time Skip", "Death Blow", "Vital Point Attack"],
-      "img": "../assets/goku.png"
+      "img": "hit.png"
     },
     {
       "id": "krillin",
@@ -178,7 +178,7 @@
       "defense": "20,000",
       "kiRestoreSpeed": "20,000",
       "abilities": ["Kamehameha Wave", "Destrcuto Disk", "Solar Flare"],
-      "img": "../assets/goku.png"
+      "img": "krillin.png"
     },
     {
       "id": "jiren",
@@ -195,7 +195,7 @@
         "Energy Barrier",
         "Overheat Magnetron"
       ],
-      "img": "../assets/goku.png"
+      "img": "jiren.png"
     },
     {
       "id": "tien",
@@ -208,7 +208,7 @@
       "defense": "18,000",
       "kiRestoreSpeed": "19,000",
       "abilities": ["Tri Beam", "Solar Flare", "Tri-Form"],
-      "img": "../assets/goku.png"
+      "img": "tien.png"
     },
     {
       "id": "android 17",
@@ -225,7 +225,7 @@
         "Super Kamehameha",
         "Super Dragon Fist"
       ],
-      "img": "../assets/goku.png"
+      "img": "android17.png"
     },
     {
       "id": "android 18",
@@ -238,7 +238,7 @@
       "defense": "40,000",
       "kiRestoreSpeed": "40,000",
       "abilities": ["Android Barrier", "Full Power Energy Ball", "Power Blitz"],
-      "img": "../assets/goku.png"
+      "img": "android18.png"
     },
     {
       "id": "broly",
@@ -255,7 +255,7 @@
         "Eraser Cannon",
         "Gigantic Slam"
       ],
-      "img": "../assets/goku.png"
+      "img": "broly.png"
     },
     {
       "id": "vegito",
@@ -272,7 +272,7 @@
         "Final Kamehameha",
         "Beam Sword Slash"
       ],
-      "img": "../assets/goku.png"
+      "img": "vegito.png"
     },
     {
       "id": "gogeta",
@@ -289,7 +289,7 @@
         "Big Bang Kamehameha",
         "Stardust Breaker"
       ],
-      "img": "../assets/goku.png"
+      "img": "gogeta.png"
     },
     {
       "id": "goku black",
@@ -306,7 +306,7 @@
         "Black Kamehameha",
         "God Slicer"
       ],
-      "img": "../assets/goku.png"
+      "img": "gokublack.png"
     }
   ]
 }
