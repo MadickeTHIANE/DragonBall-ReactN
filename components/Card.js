@@ -1,16 +1,22 @@
 import React from "react";
-import { StyleSheet, Text, View, Pressable } from "react-native";
+import { StyleSheet, Text, View, Pressable, Image } from "react-native";
+import Goku from "../assets/goku.png";
 
 export default function Card({ item, show, display }) {
   return (
-    <View style={styles.card}>
-      <Text>Nom du personnage : {item.name}</Text>
-      <Text>Capacités du personnage : {item.abilities}</Text>
-      <Pressable onPress={() => display(item.bio)}>
-        <Text style={{ color: "red" }}>
-          {!show ? "Voir la bio" : "Cacher la bio"}
-        </Text>
-      </Pressable>
+    <View>
+      <View>
+        <Image style={styles.img} source={Goku} />
+      </View>
+      <View style={styles.card}>
+        <Text>Nom du personnage : {item.name}</Text>
+        <Text>Capacités du personnage : {item.abilities}</Text>
+        <Pressable onPress={() => display(item.bio)}>
+          <Text style={{ color: "red" }}>
+            {!show ? "Voir la bio" : "Cacher la bio"}
+          </Text>
+        </Pressable>
+      </View>
     </View>
   );
 }
@@ -21,5 +27,9 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     padding: 5,
     margin: 10,
+  },
+  img: {
+    width: 100,
+    height: 200,
   },
 });
