@@ -6,8 +6,7 @@ export default function Card({ item, show, display }) {
     <View style={styles.card}>
       <Text>Nom du personnage : {item.name}</Text>
       <Text>Capacités du personnage : {item.abilities}</Text>
-      {show && <Text style={{ color: "blue" }}>{item.bio}</Text>}
-      <Pressable onPress={() => display()}>
+      <Pressable onPress={() => display(item.bio)}>
         <Text style={{ color: "red" }}>
           {!show ? "Voir la bio" : "Cacher la bio"}
         </Text>
